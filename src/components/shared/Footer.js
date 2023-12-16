@@ -17,7 +17,7 @@ const navItems = [
 ];
 const Footer = () => {
     return (
-        <Box className="bg-black px-3 py-10">
+        <Box className="bg-black px-3 py-10 w-11/12 mx-auto">
             <Container>
             <Box className="w-full text-center py-2" sx={{"& svg": {color:"white"}}}>
            

@@ -11,7 +11,7 @@ const CategoryList = async () => {
       <div className="grid grid-rows-1 border-2 border-b-0 border-blue-400">
         {categories.map((category) => (
           <button key={category._id}
-          className="border-b-2  p-2 font-semibold border-blue-400 "
+          className="border-b-2 hover:text-blue-400  p-2 font-semibold border-blue-400 "
           >
             <Link href={`news?category=${category.title.toLowerCase()}`}>
             {category.title}</Link>
